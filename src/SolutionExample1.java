@@ -18,6 +18,7 @@ public class SolutionExample1 {
         for (int i = 0; i < n; i++) {
             arr[i] = i + 1 + "";
         }
+
         Arrays.sort(arr);
         List<Integer> result = new ArrayList<>();
         for (String s : arr) {
